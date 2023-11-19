@@ -9,13 +9,17 @@
 </head>
 <body>
     <div id="quote-container">
-        <h2 id="quote-author">Name</h2>
+        <h3 id="quote-author">Name</h3>
         <ul id="tags">Tags</ul>
-        <p id="quote-text">Quote</p>
+        <h2 id="quote-text">Quote</h2>
     </div>
     <div id="buttons">
-        <button onclick="getRandomQuote()"> ran</button>
-        <button onclick="copyToClipboard()"> copy</button>
+        <button onclick="getRandomQuote()" id="regroup">
+            <img src="images/Regroup.svg" alt="" width="35px">
+        </button>
+        <button onclick="copyToClipboard()" id="link">
+            <img src="images/link.svg" alt="" width="35px">
+        </button>
     </div>
 </body>
 </html>

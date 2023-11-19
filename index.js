@@ -12,7 +12,6 @@ function getRandomQuote() {
                 liElement.textContent = tag;
                 ulElement.appendChild(liElement);
             });
-            console.log(data)
         })
     .catch(error => {
         console.error(error);
