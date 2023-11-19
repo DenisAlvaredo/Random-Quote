@@ -47,8 +47,8 @@ button {
 #quote-text {
     color: #4A5567;
     text-align: center;
-    font-size: 1.5rem;
     padding: 0 3rem 1.5rem 3rem;
+    margin-top: 0.75rem;
 }
 
 #tags {
