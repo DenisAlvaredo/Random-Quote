@@ -29,6 +29,7 @@ button {
     border-color: #4A5567;
     border-width: 1px;
     padding: 5px 10px;
+    cursor: pointer;
 }
 
 #quote-container {
@@ -42,7 +43,6 @@ button {
     width: 90%;
     max-width: 35rem;
 }
-
 
 #quote-text {
     color: #4A5567;
